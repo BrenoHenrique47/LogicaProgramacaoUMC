@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #f4f4f9;
+    color: #333;
+    padding-top: 80px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilizando os inputs */
+input {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Estilizando os botões */
+button {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+/* Estilizando o resultado */
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+/* Estilizando o footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
